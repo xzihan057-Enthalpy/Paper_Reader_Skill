@@ -1,0 +1,6 @@
+interface:
+  display_name: "Paper Reader 论文深度阅读"
+  short_description: "科研论文深读、逐图证据分析、数学模型教学式推导与全文翻译"
+  default_prompt: "请使用 $paper-reader 深度解读这篇论文，先补前置知识，再讲清实验证据、Figure 和数学模型，并生成四份 Markdown 文档。"
+policy:
+  allow_implicit_invocation: true
